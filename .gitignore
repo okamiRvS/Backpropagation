@@ -1,5 +1,6 @@
 venv
 *.docx
+backpropagation_advanced.ipynb
 
 
 # Byte-compiled / optimized / DLL files
