@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70218" creator="Ipe 7.2.23">
+<info created="D:20221016133523" modified="D:20221016151107"/>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/ptarc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fptarc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-normal(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.3 0 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0.5 0 m
+-0.5 0.333 l
+-0.3 0 l
+-0.5 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+1 0 m
+0 0.333 l
+0 -0.333 l
+h
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/mid-fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+1 0 m
+0 0.333 l
+0 -0.333 l
+h
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<anglesize name="22.5 deg" value="22.5"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="90 deg" value="90"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="blue" value="0 0 1"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="gray" value="0.745"/>
+<color name="green" value="0 1 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="red" value="1 0 0"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="yellow" value="1 1 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<opacity name="10%" value="0.1"/>
+<opacity name="30%" value="0.3"/>
+<opacity name="50%" value="0.5"/>
+<opacity name="75%" value="0.75"/>
+<pen name="fat" value="1.2"/>
+<pen name="heavier" value="0.8"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<ipestyle name="customsize">
+<layout paper="3000 3000" origin="0 0" frame="3000 3000"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<text layer="alpha" matrix="1 0 0 1 1072 1552" transformations="translations" pos="288 752" stroke="black" type="label" width="25.363" height="6.808" depth="0" valign="baseline" style="math">MSE</text>
+<text matrix="1 0 0 1 1056 1536" transformations="translations" pos="208 704" stroke="black" type="label" width="9.354" height="4.297" depth="1.93" valign="baseline" style="math">y_{0}</text>
+<text matrix="1 0 0 1 1104 1536" transformations="translations" pos="384 704" stroke="black" type="label" width="9.354" height="4.297" depth="1.93" valign="baseline" style="math">y_{1}</text>
+<text matrix="1 0 0 1 1056 1504" transformations="translations" pos="208 640" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(2)}_{0}</text>
+<text matrix="1 0 0 1 1104 1504" transformations="translations" pos="384 640" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(2)}_{1}</text>
+<text matrix="1 0 0 1 992 1280" transformations="translations" pos="128 576" stroke="black" type="label" width="15.962" height="10.412" depth="2.65" valign="baseline" style="math">a^{(1)}_{0}</text>
+<text matrix="1 0 0 1 1024 1280" transformations="translations" pos="192 576" stroke="black" type="label" width="15.962" height="10.412" depth="2.65" valign="baseline" style="math">a^{(1)}_{1}</text>
+<text matrix="1 0 0 1 1056 1280" transformations="translations" pos="256 576" stroke="black" type="label" width="15.962" height="10.412" depth="2.65" valign="baseline" style="math">a^{(1)}_{2}</text>
+<text matrix="1 0 0 1 1088 1280" transformations="translations" pos="352 576" stroke="black" type="label" width="15.962" height="10.412" depth="2.65" valign="baseline" style="math">a^{(1)}_{0}</text>
+<text matrix="1 0 0 1 1120 1280" transformations="translations" pos="416 576" stroke="black" type="label" width="15.962" height="10.412" depth="2.65" valign="baseline" style="math">a^{(1)}_{1}</text>
+<text matrix="1 0 0 1 1168 1280" transformations="translations" pos="464 576" stroke="black" type="label" width="15.962" height="10.412" depth="2.65" valign="baseline" style="math">a^{(1)}_{2}</text>
+<text matrix="1 0 0 1 688 1248" transformations="translations" pos="80 512" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(1)}_{0}</text>
+<text matrix="1 0 0 1 864 1248" transformations="translations" pos="160 512" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(1)}_{1}</text>
+<text matrix="1 0 0 1 1056 1248" transformations="translations" pos="224 512" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(1)}_{2}</text>
+<text matrix="1 0 0 1 1072 1248" transformations="translations" pos="400 512" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(1)}_{0}</text>
+<text matrix="1 0 0 1 1264 1248" transformations="translations" pos="464 512" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(1)}_{1}</text>
+<text matrix="1 0 0 1 1472 1248" transformations="translations" pos="512 512" stroke="black" type="label" width="15.767" height="10.412" depth="2.65" valign="baseline" style="math">z^{(1)}_{2}</text>
+<path stroke="black">
+1376 2304 m
+1264 2240 l
+</path>
+<path stroke="black">
+1376 2304 m
+1488 2240
+1488 2240 c
+</path>
+<path stroke="black">
+1264 2240 m
+1264 2144
+1264 2144 c
+</path>
+<path stroke="black">
+1488 2240 m
+1488 2144 l
+</path>
+<text transformations="translations" pos="1296 2288" stroke="black" type="label" width="26.925" height="8.767" depth="4.79" valign="baseline" style="math">\frac{\partial MSE}{\partial y_{0}}</text>
+<text transformations="translations" pos="1440 2288" stroke="black" type="label" width="26.925" height="8.767" depth="4.79" valign="baseline" style="math">\frac{\partial MSE}{\partial y_{1}}</text>
+<text transformations="translations" pos="1232 2192" stroke="black" type="label" width="20.452" height="9.28" depth="7.9" valign="baseline" style="math">\frac{\partial y_0}{\partial z^{(2)}_{0}}</text>
+<text transformations="translations" pos="1520 2192" stroke="black" type="label" width="20.452" height="9.28" depth="7.9" valign="baseline" style="math">\frac{\partial y_1}{\partial z^{(2)}_{0}}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1024 2048" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(2)}_{02}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="928 2048" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(2)}_{01}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="832 2048" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(2)}_{00}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="736 2048" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(2)}_{0}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1728 2048" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(2)}_{1}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1824 2048" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(2)}_{10}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1920 2048" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(2)}_{11}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="2016 2048" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(2)}_{12}</text>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1312 2048 m
+1280 1952 l
+</path>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1344 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{21}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1280 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{20}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1216 1856" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(1)}_{2}</text>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1280 1952 m
+1344 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1280 1952 m
+1280 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1280 1952 m
+1216 1856 l
+</path>
+<text matrix="1 0 0 1 -64 -192" transformations="translations" pos="1152 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{11}</text>
+<text matrix="1 0 0 1 -64 -192" transformations="translations" pos="1088 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{10}</text>
+<text matrix="1 0 0 1 -64 -192" transformations="translations" pos="1024 1856" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(1)}_{1}</text>
+<text matrix="1 0 0 1 -128 -192" transformations="translations" pos="960 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{01}</text>
+<text matrix="1 0 0 1 -128 -192" transformations="translations" pos="896 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{00}</text>
+<text matrix="1 0 0 1 -128 -192" transformations="translations" pos="832 1856" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(1)}_{0}</text>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+768 1952 m
+704 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+768 1952 m
+768 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+768 1952 m
+832 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1024 1952 m
+960 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1024 1952 m
+1024 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1024 1952 m
+1088 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1216 2048 m
+1024 1952 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1120 2048 m
+768 1952 l
+</path>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1408 1856" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(1)}_{0}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1472 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{00}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1536 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{01}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1664 1856" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(1)}_{1}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1728 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{10}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1792 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{11}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1920 1856" stroke="black" type="label" width="14.972" height="10.412" depth="2.65" valign="baseline" style="math">b^{(1)}_{2}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="1984 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{20}</text>
+<text matrix="1 0 0 1 0 -192" transformations="translations" pos="2048 1856" stroke="black" type="label" width="18.097" height="10.412" depth="2.65" valign="baseline" style="math">w^{(1)}_{21}</text>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1472 1952 m
+1408 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1472 1952 m
+1472 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1472 1952 m
+1536 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1728 1952 m
+1664 1856
+1664 1856 c
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1728 1952 m
+1728 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1728 1952 m
+1792 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1984 1952 m
+1920 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1984 1952 m
+1984 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1984 1952 m
+2048 1856 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1440 2048 m
+1472 1952 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1536 2048 m
+1728 1952 l
+</path>
+<path matrix="1 0 0 1 0 -192" stroke="black">
+1632 2048 m
+1984 1952 l
+</path>
+<path stroke="black">
+1264 2144 m
+736 1856 l
+</path>
+<path stroke="black">
+1264 2144 m
+832 1856 l
+</path>
+<path stroke="black">
+1264 2144 m
+928 1856
+928 1856 c
+</path>
+<path stroke="black">
+1264 2144 m
+1024 1856 l
+</path>
+<path stroke="black">
+1264 2144 m
+1120 1856 l
+</path>
+<path stroke="black">
+1264 2144 m
+1216 1856 l
+</path>
+<path stroke="black">
+1264 2144 m
+1312 1856 l
+</path>
+<path stroke="black">
+1488 2144 m
+1440 1856
+1440 1856 c
+</path>
+<path stroke="black">
+1488 2144 m
+1536 1856 l
+</path>
+<path stroke="black">
+1488 2144 m
+1632 1856 l
+</path>
+<path stroke="black">
+1488 2144 m
+1728 1856 l
+</path>
+<path stroke="black">
+1488 2144 m
+1824 1856 l
+</path>
+<path stroke="black">
+1488 2144 m
+1920 1856 l
+</path>
+<path stroke="black">
+1488 2144 m
+2016 1856 l
+</path>
+<text transformations="translations" pos="768 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial b^{(2)}_{0}}</text>
+<text transformations="translations" pos="1712 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial b^{(2)}_{1}}</text>
+<text transformations="translations" pos="1792 1904" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial w^{(2)}_{10}}</text>
+<text transformations="translations" pos="1872 1904" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial w^{(2)}_{11}}</text>
+<text transformations="translations" pos="1952 1904" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial w^{(2)}_{12}}</text>
+<text transformations="translations" pos="864 1904" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial w^{(2)}_{00}}</text>
+<text transformations="translations" pos="944 1904" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial w^{(2)}_{01}}</text>
+<text transformations="translations" pos="1024 1904" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial w^{(2)}_{02}}</text>
+<text transformations="translations" pos="1120 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial a^{(1}_{0}}</text>
+<text transformations="translations" pos="1200 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial a^{(1}_{1}}</text>
+<text transformations="translations" pos="1280 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{0}}{\partial a^{(1}_{2}}</text>
+<text transformations="translations" pos="1472 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial a^{(1}_{0}}</text>
+<text transformations="translations" pos="1552 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial a^{(1}_{1}}</text>
+<text transformations="translations" pos="1632 1904" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(2)}_{1}}{\partial a^{(1}_{2}}</text>
+<text transformations="translations" pos="816 1792" stroke="black" type="label" width="20.681" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial a^{(1)}_{0}}{\partial z^{(1)}_{0}}</text>
+<text transformations="translations" pos="1056 1792" stroke="black" type="label" width="20.681" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial a^{(1)}_{1}}{\partial z^{(1)}_{1}}</text>
+<text matrix="1 0 0 1 -16 0" transformations="translations" pos="1280 1792" stroke="black" type="label" width="20.681" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial a^{(1)}_{2}}{\partial z^{(1)}_{2}}</text>
+<text transformations="translations" pos="1488 1792" stroke="black" type="label" width="20.681" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial a^{(1)}_{0}}{\partial z^{(1)}_{0}}</text>
+<text transformations="translations" pos="1712 1792" stroke="black" type="label" width="20.681" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial a^{(1)}_{1}}{\partial z^{(1)}_{1}}</text>
+<text transformations="translations" pos="1920 1792" stroke="black" type="label" width="20.681" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial a^{(1)}_{2}}{\partial z^{(1)}_{2}}</text>
+<text matrix="1 0 0 1 -16 -16" transformations="translations" pos="704 1712" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{0}}{\partial b^{(1)}_{0}}</text>
+<text transformations="translations" pos="1440 1696" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{0}}{\partial b^{(1)}_{0}}</text>
+<text transformations="translations" pos="1488 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{0}}{\partial w^{(1)}_{00}}</text>
+<text transformations="translations" pos="1536 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{0}}{\partial w^{(1)}_{01}}</text>
+<text matrix="1 0 0 1 -16 -16" transformations="translations" pos="752 1712" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{0}}{\partial w^{(1)}_{00}}</text>
+<text transformations="translations" pos="784 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{0}}{\partial w^{(1)}_{01}}</text>
+<text transformations="translations" pos="992 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{1}}{\partial w^{(1)}_{10}}</text>
+<text transformations="translations" pos="1040 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{1}}{\partial w^{(1)}_{11}}</text>
+<text transformations="translations" pos="1744 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{1}}{\partial w^{(1)}_{10}}</text>
+<text transformations="translations" pos="1792 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{1}}{\partial w^{(1)}_{11}}</text>
+<text transformations="translations" pos="2000 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{2}}{\partial w^{(1)}_{20}}</text>
+<text transformations="translations" pos="2048 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{2}}{\partial w^{(1)}_{21}}</text>
+<text transformations="translations" pos="1248 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{2}}{\partial w^{(1)}_{20}}</text>
+<text transformations="translations" pos="1296 1696" stroke="black" type="label" width="22.31" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{2}}{\partial w^{(1)}_{21}}</text>
+<text transformations="translations" pos="960 1696" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{1}}{\partial b^{(1)}_{1}}</text>
+<text transformations="translations" pos="1216 1696" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{2}}{\partial b^{(1)}_{2}}</text>
+<text matrix="1 0 0 1 -16 0" transformations="translations" pos="1712 1696" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{1}}{\partial b^{(1)}_{1}}</text>
+<text transformations="translations" pos="1952 1696" stroke="black" type="label" width="20.452" height="12.866" depth="7.9" valign="baseline" style="math">\frac{\partial z^{(1)}_{2}}{\partial b^{(1)}_{2}}</text>
+</page>
+</ipe>
