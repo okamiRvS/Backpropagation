@@ -1,6 +1,10 @@
-# Backpropagation calculations
+# Step by Step Backpropagation Math 
 
-🔥All hand calculations for the #Backpropagation algorithm!🔥
+🔥All hand calculations for the Backpropagation algorithm!🔥
+
+![](images/partial_derivative.png)
+
+...for this network
 
 ![](images/backpropagation.png)
 
