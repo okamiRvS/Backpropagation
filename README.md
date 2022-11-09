@@ -2,7 +2,7 @@
 
 🔥All hand calculations for the Backpropagation algorithm!🔥
 
-![](images/partial_derivative.png)
+![](images/partial_derivative.jpg)
 
 ...for this network
 
