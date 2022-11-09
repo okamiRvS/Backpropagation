@@ -1,4 +1,7 @@
+# Backpropagation calculations
+
 🔥All hand calculations for the #Backpropagation algorithm!🔥
+
 ![](images/backpropagation.png)
 
 ...I've also created a chain rule tree diagram for a primary Neural Network. 🔎
